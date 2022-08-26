@@ -1,0 +1,154 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    background: rgb(2, 0, 36);
+    background-image: linear-gradient(180deg, rgb(18, 0, 29) 35%, rgba(96, 19, 126, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-weight: bold;
+    color: violet;
+}
+
+.campo1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_label{
+    font-family: 'Source Code Pro', monospace;
+    color: violet;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.receptor{
+   width: 170px;
+   height: 25px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   background: rgb(18, 0, 29);
+   border-color: blueviolet;
+   color: violet;
+   margin-right: 8px;
+   font-family: 'IBM Plex Mono', monospace;
+}
+
+.receptor::placeholder {
+    color: violet;
+    font-family: 'Silkscreen', cursive;
+}
+
+.conversor_button {
+    min-width: 120px;
+    background: rgb(43, 233, 22); 
+    border-color: rgb(5, 247, 86);
+    border-width: 3px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+.reset_button{
+    min-width: 120px;
+    background: rgb(233, 22, 22); 
+    border-color: rgb(177, 5, 5);
+    border-width: 3px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+
+.caixa{
+  padding-top: 0px;
+  border:  violet
+  
+}
+
+.texto_caixa{
+    color: violet;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 380px;
+    padding-top: 0px;
+    
+    
+}
+
+.subtitulo{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-weight: bold;
+    color: violet;
+    padding-top: 35px;
+}
+.campo2{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_celsius{
+    width: 170px;
+   height: 25px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   background: rgb(18, 0, 29);
+   border-color: blueviolet;
+   color: violet;
+   margin-right: 8px;
+   font-family: 'IBM Plex Mono', monospace;
+}
+
+.input_fahrenheit{
+    width: 170px;
+   height: 25px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   background: rgb(18, 0, 29);
+   border-color: blueviolet;
+   color: violet;
+   margin-right: 8px;
+   font-family: 'IBM Plex Mono', monospace;
+}
+
+.input_kelvin{
+    width: 170px;
+   height: 25px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   background: rgb(18, 0, 29);
+   border-color: blueviolet;
+   color: violet;
+   margin-right: 8px;
+   font-family: 'IBM Plex Mono', monospace;
+}
