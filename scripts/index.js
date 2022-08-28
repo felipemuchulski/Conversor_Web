@@ -31,7 +31,7 @@ function validarInput(){
     const valor = input.value;
     const regex = /^[0-9]*[CFKcfk]{1}?$/g.test(valor);
 
-    console.log("teste0", valor.match(/^[0-9]*[\s][CFKcfk]{1}?$/g))
+    console.log("teste0", valor.match(/^[0-9]*[CFKcfk]{1}?$/g))
 
     console.log(regex)
     if(regex){
